@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# E-Shopping
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to E-Shopping, an online shopping platform where users can register, browse products, manage their cart, place orders, and more!
 
-## Available Scripts
+## Here is the link to access live project : [https://its-our-shopping.netlify.app/]()
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+1. **User Authentication:**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+   - Users can register and login to the platform to access their accounts.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Product Browsing:**
 
-### `npm test`
+   - Browse the entire product list with ease.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. **Product Details:**
 
-### `npm run build`
+   - View individual product details on separate screens.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. **Cart Management:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   - Add products to the cart.
+   - Increase or decrease product quantity from the cart.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. **Order Checkout:**
 
-### `npm run eject`
+   - Checkout orders with necessary shipping address and payments from the cart.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+6. **Order History:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   - View order history to track previous purchases.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+7. **Sorting:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   - Sort products based on price, rating, etc.
 
-## Learn More
+8. **Reviews and Ratings:**
+   - Users can leave reviews and ratings for products.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Technologies Used
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Frontend:** React
+- **Backend:** Node.js, Express
+- **Database:** MongoDB
+- **User Authentication:** JWT (JSON Web Tokens)
 
-### Code Splitting
+## Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To get started with E-Shopping, follow these steps:
 
-### Analyzing the Bundle Size
+1. Clone this repository to your local machine:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   ```
+   git clone https://github.com/manojn26/E-Shopping-Frontend
+   ```
 
-### Making a Progressive Web App
+2. Navigate to the project directory:
+   ```
+   cd e-shopping E-Shopping-Frontend
+   ```
+3. Install dependencies :
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+   ```
+   cd E-Shopping-Frontend
+   npm install
+   ```
 
-### Advanced Configuration
+4. Start the developemnt server :
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+   ```
+   npm start
+   ```
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+5. Open your browser and navigate to http://localhost:3000 to access the E-Shopping platform.
